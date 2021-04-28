@@ -1,0 +1,10 @@
+server:
+  servlet.context-path: /pk-billing
+  port: 9000
+
+spring:
+  jackson:
+    property-naming-strategy: SNAKE_CASE
+    default-property-inclusion: non_null
+  application:
+    name: pk-billing
